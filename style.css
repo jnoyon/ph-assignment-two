@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.ttf);
+    font-family: Miama;
+    src: url(fonts/Miama.ttf);
+}
+body {
+    background: #000;
+    font-family: Inter;
+}
+img {
+    max-width: 100%;
+}
+p {
+    line-height: 25px;
+}
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.primary-text-color {
+    color: #FFF;
+}
+.primary-text-color p {
+    color: #585957;
+}
+.rounded-button {
+    background: #e6533c;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid #e6533c;
+}
+.flex-section {
+    display: flex;
+}
+.mobile-mb {
+    margin-bottom: 0;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.width-50 {
+    width: 50%;
+}
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section-heading h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.section-heading p {
+    color: #eee;
+}
+
+
+/*********** Header Section *************/
+.header-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero-area.primary-text-color {
+    background: linear-gradient(360deg, black, #262424);
+  }
+.logo h1 a {
+    color: #e6533c;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+
+}
+.main-menu ul {
+    display: flex;
+    border: 1px solid #3d3d3d;
+    border-radius: 25px;
+    list-style: none;
+    padding: 15px 10px;
+}
+.main-menu ul li a {
+    color: #FFF;
+    transition: .5s;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    background: #e6533c;
+}
+.main-menu .active-menu {
+    background: #e6533c;
+}
+/*********** Hero Section *******/
+.hero-section {
+    justify-content: space-between;
+}
+
+.hero-left h1 {
+    font-size: 70px;
+}
+.hero-left h1 span {
+    font-family: Miama;
+}
+.hero-buttons {
+    gap: 15px;
+    display: flex;
+}
+.hero-buttons a {
+    padding: 16px 40px;
+}
+.hero-button-white {
+    background: transparent;
+    border: 2px solid #ddd;
+}
+.hero-right {
+    position: relative;
+}
+.hero-card {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    background: rgba(145, 139, 139, 0.226);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.hero-card h2 {
+    font-size: 40px;
+}
+.hct-one {
+    top: 160px;
+    right: -60px;
+}
+.hct-two {
+    bottom: 20px;
+    left: -90px;
+}
+/*********** Change Habit Section *************/
+.change-habit-area {
+    text-align: center;
+}
+.habit-change {
+    gap: 50px;
+}
+.habit-change img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 5px solid #3d3d3d;
+}
+.habit-change h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+/********** Full Width Card *************/
+.full-width-card-section {
+    margin: 30px 0;
+}
+.full-width-card {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 100px;
+    align-items: center;
+}
+.full-width-left {
+    align-items: center;
+}
+
+.full-width-right img {
+    border-radius: 15px;
+}
+
+.meet-team-area.primary-text-color {
+  padding: 60px 0;
+}
+
+/***************** BMI Section ************/
+.bmi-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.bmi-form input[type="text"], .bmi-form select {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #333;
+    color: #888;
+}
+.bmi-form input[type="submit"] {
+    cursor: pointer;
+}
+.form-full {
+    grid-column: 1 / 3;
+}
+
+/************ Meet Our Team ***********/
+.meet-team-area {
+    padding: 60px 0;
+}
+.meet-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-person {
+    position: relative;
+}
+.team-person .name-design {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.team-person img {
+    border-radius: 15px;
+    width: 100%;
+}
+.bmi-area {
+    background: #1a1a1a;
+    padding: 50px 0;
+}
+
+
+/*********** Footer Section **************/
+
+.footer-area {
+    background-color: #191919;
+}
+
+.footer-section {
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-size: 60px;
+    font-style: italic;
+    color: #e6533c;
+}
+.footer-text p {
+    text-align: center;
+    border-top: 2px solid #333;
+    padding: 30px 0;
+}
+.footer-item ul {
+    list-style: none;
+}
+.footer-item ul li a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+/*********** Responsive Styles **************/
+
+@media screen and (max-width: 768px) {
+    .flex-section {
+        flex-direction: column;
+    }
+    .width-50 {
+        width: 100%;
+    }
+    .mobile-mb {
+        margin-bottom: 25px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .meet-team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Fitness - A Responsive Project </title>
+</head>
+<body>
+
+
+    <header class="header-area hero-area primary-text-color">
+        <div class="container">
+            <div class="header-section flex-section">
+                <div class="logo">
+                    <h1><a href="#"> Fitness </a></h1>
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#" class="active-menu"> Home </a></li>
+                        <li><a href="#"> Service </a></li>
+                        <li><a href="#"> Contact </a></li>
+                        <li><a href="#"> About </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-section flex-section">
+                <div class="hero-left width-50 mobile-mb">
+                    <h1 class="mb-20"> Get your body <br>  <span> Six Pack </span> and <br> Healthy. </h1>
+                    <p class="mb-20"> We have a dedicated team to make your body strong and we have medical consultant to make sure your health protection. </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="rounded-button"> Join Club Now </a>
+                        <a href="#" class="rounded-button hero-button-white"> Download App </a>
+                    </div>
+                </div>
+                <div class="hero-right mobile-mb">
+                    <div class="hero-card hct-one">
+                        <h2> 350+ </h2>
+                        <p> Video Tutorials </p>
+                    </div>
+                    <img src="images/Images2.png" alt="">
+                    <div class="hero-card hct-two">
+                        <h2> 350+ </h2>
+                        <p> Video Tutorials </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="change-habit-area primary-text-color">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="mb-20"> Let's Change Habit </h1>
+                <p> Changing habit is not easy for human. <br> But Human is more powerful. </p>
+            </div>
+            <div class="flex-section habit-change">
+                <div class="habit-change-item">
+                    <img src="images/image3.png" alt="Images">
+                    <h2> Movement </h2>
+                    <p> Movement is a powerful habit to build up your body. </p>
+                </div> <!-- habit-change-item -->
+                <div class="habit-change-item">
+                    <img src="images/image2.png" alt="Images">
+                    <h2> Practice </h2>
+                    <p> Practice makes a man perfect. So, Practice and practice. </p>
+                </div> <!-- habit-change-item -->
+                <div class="habit-change-item">
+                    <img src="images/image4.png" alt="Images">
+                    <h2> Hard Work </h2>
+                    <p> You have to be a hard working person to change your habit. </p>
+                </div> <!-- habit-change-item -->
+                <div class="habit-change-item">
+                    <img src="images/image5.png" alt="Images">
+                    <h2> Descipline </h2>
+                    <p> You have to main Descipline in order to change habit. </p>
+                </div> <!-- habit-change-item -->
+            </div>
+        </div>
+    </section>
+
+    <section class="full-width-card-section primary-text-color">
+        <div class="container">
+            <div class="full-width-card flex-section">
+                <div class="full-width-left">
+                    <h1 class="mb-20"> Run Fast <br> Work Hard </h1>
+                    <p class="mb-20"> Run everyday at least 8000 steps in a day. You can increase it day by day. But eight thousand steps is minimum. You may use a smart gadget like smartwatch or band in your hand to set a daily goal and achive it. You can Also Download our app to calculte it by your smartphone. </p>
+                    <a href="#" class="rounded-button">Start Now</a>
+                </div>
+                <div class="full-width-right">
+                    <img src="images/run.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bmi-area primary-text-color">
+        <div class="container">
+            <div class="bmi-section flex-section">
+                <div class="bmi-chart width-50 mobile-mb">
+                    <h2 class="bmi-title mb-20"> BMI Health Chart </h2>
+                    <table>
+                        <tr>
+                            <th> BMI </th>
+                            <th> Weight Status </th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td> Underweight </td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9 </td>
+                            <td> Healthy </td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td> Overweight </td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - Above</td>
+                            <td> Obsese </td>
+                        </tr>
+                    </table>
+
+
+                </div>
+                <div class="bmi-calculate">
+                    <h2 class="bmi-title mb-20"> Get your BMI </h2>
+                    <p class="mb-20"> You can calculte your BMI by giving your height in centimetre and your Weight in kg. Age, Sex and Activity factor is optional but recommended </p>
+                    <form action="#" class="bmi-form">
+                        <input type="text" name="bmiheight" id="bheight" placeholder="Height/cm" class="form-half" required>
+                        <input type="text" name="bmiwight" id="bmiwight" placeholder="Weight/kg" class="form-half" required>
+                        <input type="text" name="bmiage" id="bmiage" placeholder="Age" class="form-half">
+                        <select name="gender" id="gender" class="form-half">
+                            <option value="Sex"> Sex </option>
+                            <option value="Male">Male</option>
+                            <option value="Female"> Female </option>
+                        </select>
+                        <select name="activity" id="activity" class="form-full">
+                            <option value="Activity"> Activity Factor </option>
+                        </select>
+                        <input type="submit" class="rounded-button" value="Calculate">
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="meet-team-area primary-text-color">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="mb-20"> Meet our Team </h1>
+                <p> We have a complete medical consultant team to give you tips to become Healthy. <br> Just call us for your Healthy Life. </p>
+            </div>
+            <div class="meet-team">
+                <div class="team-person">
+                    <img src="images/image2.png" alt="image">
+                    <div class="name-design">
+                        <h2> Mr. Chapman </h2>
+                        <p> Senior Trainer </p>
+                    </div>
+                </div> <!-- team person -->
+                <div class="team-person">
+                    <img src="images/image2.png" alt="image">
+                    <div class="name-design">
+                        <h2> Mr. John </h2>
+                        <p> Senior Trainer </p>
+                    </div>
+                </div> <!-- team person -->
+                <div class="team-person">
+                    <img src="images/image3.png" alt="image">
+                    <div class="name-design">
+                        <h2> Dr. Ruhan </h2>
+                        <p> Consultant </p>
+                    </div>
+                </div> <!-- team person -->
+                <div class="team-person">
+                    <img src="images/image4.png" alt="image">
+                    <div class="name-design">
+                        <h2> Mark Wood </h2>
+                        <p> Senior Trainer </p>
+                    </div>
+                </div> <!-- team person -->
+                <div class="team-person">
+                    <img src="images/image5.png" alt="image">
+                    <div class="name-design">
+                        <h2> Ben Cutting </h2>
+                        <p> Senior Trainer </p>
+                    </div>
+                </div> <!-- team person -->
+                <div class="team-person">
+                    <img src="images/image2.png" alt="image">
+                    <div class="name-design">
+                        <h2> Stiphen Robert </h2>
+                        <p> Senior Trainer </p>
+                    </div>
+                </div> <!-- team person -->
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area primary-text-color">
+        <div class="container">
+            <div class="footer-section flex-section">
+                <div class="footer-item width-50 mobile-mb">
+                    <h1 class="footer-logo mb-20"> Fitness </h1>
+                    <p>  Fitness team has a dedicated team to make your body strong and we have medical consultant to make sure your health protection. You just need to stay with us.   </p>
+                </div>
+                <div class="footer-item mobile-mb">
+                    <h2 class="mb-20"> Company </h2>
+                    <ul>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> Services </a></li>
+                        <li><a href="#"> Our Team </a></li>
+                        <li><a href="#"> Pricing </a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="mb-20"> Get Ready </h2>
+                    <ul>
+                        <li><a href="#"> Step Counter </a></li>
+                        <li><a href="#"> Fitness Tracker </a></li>
+                        <li><a href="#"> Consultant </a></li>
+                        <li><a href="#"> Contact us </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-text">
+                <p> All Right Reserved &copy; Fitness 2024 </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
