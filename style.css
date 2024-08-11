@@ -301,11 +301,20 @@ p {
     .mobile-mb {
         margin-bottom: 25px;
     }
+    .hero-left h1 {
+        font-size: 40px;
+    }
+    .hero-buttons a {
+        padding: 16px;
+    }
     .main-menu {
         display: none;
     }
     .hct-two {
-        left: -35px;
+        left: 0;
+    }
+    .hct-one {
+        right: 0;
     }
     .meet-team {
         grid-template-columns: repeat(1, 1fr);
