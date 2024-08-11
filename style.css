@@ -193,6 +193,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 .bordered-table {
     border-collapse: collapse;
@@ -206,23 +207,26 @@ p {
     color: #FFF;
 }
 .bmi-form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
-
-.bmi-form input[type="text"], .bmi-form select {
+.form-item {
     border: none;
+    box-sizing: border-box;
     border-radius: 5px;
-    padding: 15px;
     background: #333;
     color: #888;
+    padding: 16px;
+}
+.bmi-form .form-half {   
+    width: calc(50% - 8px);
 }
 .bmi-form input[type="submit"] {
     cursor: pointer;
 }
 .form-full {
-    grid-column: 1 / 3;
+    width: 100%;
 }
 
 /************ Meet Our Team ***********/
