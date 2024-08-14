@@ -63,7 +63,10 @@ p {
 .section-heading p {
     color: #eee;
 }
-
+.large-text {
+    font-size: 45px;
+    font-weight: 900;
+}
 
 /*********** Header Section *************/
 .header-section {
@@ -206,6 +209,14 @@ p {
 }
 
 /***************** BMI Section ************/
+.bmi-heading {
+    color: #FFF;
+    margin-left: 15%;
+    padding: 50px 0;
+}
+.bmi-heading h1 {
+    font-weight: bold;
+}
 .bmi-chart {
     display: flex;
     align-items: center;
@@ -317,6 +328,9 @@ p {
     }
     .menu-bars i {
         display: inherit;
+    }
+    .large-text {
+        font-size: 25px;
     }
     .mobile-mb {
         margin-bottom: 25px;
