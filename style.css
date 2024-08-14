@@ -67,6 +67,7 @@ p {
 
 /*********** Header Section *************/
 .header-section {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
@@ -101,6 +102,10 @@ p {
 }
 .main-menu .active-menu {
     background: #e6533c;
+}
+.menu-bars i {
+    color: #FFF;
+    display: none;
 }
 /*********** Hero Section *******/
 .hero-section {
@@ -144,6 +149,18 @@ p {
 .hct-two {
     bottom: 20px;
     left: -90px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+.hero-icon i {
+    background-color: rgb(240, 24, 24);
+    padding: 10px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
 }
 /*********** Change Habit Section *************/
 .change-habit-area {
@@ -297,6 +314,9 @@ p {
     }
     .width-50 {
         width: 100%;
+    }
+    .menu-bars i {
+        display: inherit;
     }
     .mobile-mb {
         margin-bottom: 25px;
