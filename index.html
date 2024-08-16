@@ -8,8 +8,6 @@
     <title> Fitness - A Responsive Project </title>
 </head>
 <body>
-
-
     <header class="header-area hero-area primary-text-color">
         <div class="container">
             <div class="header-section">
@@ -147,16 +145,18 @@
                     <h2 class="bmi-title mb-20"> Get your BMI </h2>
                     <p class="mb-20"> You can calculte your BMI by giving your height in centimetre and your Weight in kg. Age, Sex and Activity factor is optional but recommended </p>
                     <form action="#" class="bmi-form">
-                        <input type="text" name="bmiheight" id="bheight" placeholder="Height/cm" class="form-item form-half" required>
-                        <input type="text" name="bmiwight" id="bmiwight" placeholder="Weight/kg" class="form-item form-half" required>
-                        <input type="text" name="bmiage" id="bmiage" placeholder="Age" class="form-item form-half">
-                        <select name="gender" id="gender" class="form-item form-half">
+                        <input type="text" name="bmiheight" id="bheight" placeholder="Height/cm" class="form-element form-half" required>
+                        <input type="text" name="bmiwight" id="bmiwight" placeholder="Weight/kg" class="form-element form-half" required>
+                        <input type="text" name="bmiage" id="bmiage" placeholder="Age" class="form-element form-half">
+                        <select name="gender" id="gender" class="form-element form-half">
                             <option value="Sex"> Sex </option>
                             <option value="Male">Male</option>
                             <option value="Female"> Female </option>
                         </select>
-                        <select name="activity" id="activity" class="form-item form-full">
+                        <select name="activity" id="activity" class="form-element form-full">
                             <option value="Activity"> Activity Factor </option>
+                            <option value="opt1"> Option 1 </option>
+                            <option value="opt2"> Option 2 </option>
                         </select>
                         <input type="submit" class="rounded-button" value="Calculate">
                     </form>
@@ -216,6 +216,44 @@
                     </div>
                 </div> <!-- team person -->
                 
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section primary-text-color">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="large-text mb-20"> Testimonials </h1>
+                <p> Before start working with us <br> You should check our feedback gained from our clients. </p>
+            </div>
+            <div class="testimonials flex-section">
+                <div class="testimonial-item">
+                    <img src="images/image2.png" alt="image">
+                    <h2> Jon Due </h2>
+                    <span> Artitech Engineer </span>
+                    <p> Fitness is the top class consultant institute in our area. Highly Reccomented Fitness. </p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="images/run.jpg" alt="image">
+                    <h2> Martin Kooper </h2>
+                    <span> Cricketer </span>
+                    <p> I have been using their service since 2021. They are one of the best in our country. </p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="images/image2.png" alt="image">
+                    <h2> Dale Stein </h2>
+                    <span> CEO, Microlab </span>
+                    <p> I have changed some institute for my health issues. But, Fitness is different. </p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="images/image2.png" alt="image">
+                    <h2> Joe Root </h2>
+                    <span> Author, England </span>
+                    <p> Best guideline Ever I have seen. Everyone should use their service. </p>
+                </div>
+            </div>
+            <div class="testmonital-more">
+                <a href="#" class="rounded-button"> See More </a>
             </div>
         </div>
     </section>

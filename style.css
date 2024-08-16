@@ -27,7 +27,7 @@ p {
     color: #FFF;
 }
 .primary-text-color p {
-    color: #585957;
+    color: rgb(255, 255, 255, 0.5);
 }
 .rounded-button {
     background: #e6533c;
@@ -99,6 +99,7 @@ p {
     font-weight: bold;
     padding: 10px 20px;
     text-decoration: none;
+    margin-right: 5px;
 }
 .main-menu ul li a:hover {
     background: #e6533c;
@@ -184,7 +185,6 @@ p {
     margin-bottom: 5px;
 }
 
-
 /********** Full Width Card *************/
 .full-width-card-section {
     margin: 30px 0;
@@ -199,11 +199,11 @@ p {
 .full-width-left {
     align-items: center;
 }
-
 .full-width-right img {
     border-radius: 15px;
+    object-fit: none;
+    object-position: 70% 33%;
 }
-
 .meet-team-area.primary-text-color {
   padding: 60px 0;
 }
@@ -239,13 +239,17 @@ p {
     gap: 15px;
     flex-wrap: wrap;
 }
-.form-item {
-    border: none;
-    box-sizing: border-box;
+.form-element {
+    padding: 15px;
+    border: 0;
     border-radius: 5px;
-    background: #333;
+    box-sizing: border-box;
+    background: 16px;
     color: #888;
-    padding: 16px;
+    background-color: #333;
+}
+.form-element:focus {
+    outline: 0;
 }
 .bmi-form .form-half {   
     width: calc(50% - 8px);
@@ -266,7 +270,6 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
 .team-person {
     position: relative;
 }
@@ -284,18 +287,38 @@ p {
     padding: 50px 0;
 }
 
-
+/*********** Testimonials *****************/
+.testimonials {
+    gap: 20px;
+}
+.testimonial-item {
+    background: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.testimonial-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.testimonial-item span {
+    margin-bottom: 10px;
+    display: block;
+}
+.testmonital-more {
+    text-align: center;
+    margin-bottom: 20px;
+}
 /*********** Footer Section **************/
-
 .footer-area {
     background-color: #191919;
 }
-
 .footer-section {
     padding: 50px 0;
     justify-content: space-between;
 }
-
 .footer-logo {
     font-size: 60px;
     font-style: italic;
@@ -314,11 +337,10 @@ p {
     padding: 10px 0;
     display: block;
     font-size: 20px;
-    color: #3d3d3d;
+    color: rgb(255, 255, 255, 0.5);
 }
 
 /*********** Responsive Styles **************/
-
 @media screen and (max-width: 768px) {
     .flex-section {
         flex-direction: column;
