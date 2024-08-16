@@ -83,6 +83,7 @@ p {
     font-weight: bold;
     text-decoration: none;
     font-style: italic;
+    font-size: 40px;
 
 }
 .main-menu ul {
@@ -99,13 +100,16 @@ p {
     font-weight: bold;
     padding: 10px 20px;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .main-menu ul li a:hover {
     background: #e6533c;
 }
 .main-menu .active-menu {
     background: #e6533c;
+}
+.menu-bars a {
+    text-decoration: none;
 }
 .menu-bars i {
     color: #FFF;
@@ -151,8 +155,8 @@ p {
     right: -60px;
 }
 .hct-two {
-    bottom: 20px;
-    left: -90px;
+    bottom: 90px;
+    left: -100px;
     align-items: center;
     gap: 10px;
     display: flex;
@@ -368,9 +372,22 @@ p {
     }
     .hct-two {
         left: 0;
+        bottom: 250px;
     }
     .hct-one {
         right: 0;
+        top: 60px;
+    }
+    .bmi-heading {
+        margin-left: 0;
+    }
+    .change-habit-area.rounded-button {
+        display: block;
+        text-align: center;
+    }
+    .full-width-right img {
+        object-fit: inherit;
+        object-position: inherit;
     }
     .meet-team {
         grid-template-columns: repeat(1, 1fr);
