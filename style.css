@@ -293,6 +293,9 @@ p {
 }
 
 /*********** Testimonials *****************/
+.testimonial-section {
+    padding-bottom: 40px;
+}
 .testimonials {
     gap: 20px;
 }
@@ -314,7 +317,7 @@ p {
 }
 .testmonital-more {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 /*********** Footer Section **************/
 .footer-area {
@@ -353,11 +356,14 @@ p {
     .width-50 {
         width: 100%;
     }
+    .mb-20 {
+        margin-bottom: 10px;
+    }
     .menu-bars i {
         display: inherit;
     }
     .large-text {
-        font-size: 25px;
+        font-size: 30px;
     }
     .mobile-mb {
         margin-bottom: 25px;
